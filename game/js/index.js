@@ -412,7 +412,7 @@ function Lane(index) {
     }
 }
 
-document.querySelector("#retry").addEventListener("click", () => {
+document.querySelector("#retry").addEventListener("click", () => {       
     lanes.forEach(lane => scene.remove( lane.mesh ));
     initaliseValues();
     endDOM.style.visibility = 'hidden';
