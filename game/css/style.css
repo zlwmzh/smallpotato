@@ -34,7 +34,9 @@ button {
   position: absolute;
   min-width: 100%;
   min-height: 100%;
-  display: flex;
+  display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display:-webkit-flex;/* 新版本语法: Chrome 21+ */
+      display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
   align-items: flex-end;
   justify-content: center;
 }
@@ -42,11 +44,16 @@ button {
   margin-bottom: 20px;
   font-size: 0;
   max-width: 300px;
-  display: flex;
+  display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display:-webkit-flex;/* 新版本语法: Chrome 21+ */
+      display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+
 }
 
 .divc2{
-  display: flex;
+  display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display:-webkit-flex;/* 新版本语法: Chrome 21+ */
+      display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
   flex-direction: column; 
 }
 #controlls button {
