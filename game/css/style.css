@@ -12,6 +12,7 @@ button {
 }
 #counter {
   position: absolute;
+  top: 20px;
   right: 20px;
 }
 #end {
@@ -40,11 +41,12 @@ button {
   justify-content: center;
 }
 #controlls div {
+
   font-size: 0;
   max-width: 300px;
   display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
   display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
-
+  justify-content: space-between;
 }
 
 .divc2{
@@ -54,6 +56,16 @@ button {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   box-orient: vertical;
+  height: 180px;
+}
+
+.divc3{
+  display: -webkit-box;
+  display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
 }
 #controlls button {
   width: 50px;
