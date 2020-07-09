@@ -41,7 +41,7 @@ button {
   justify-content: center;
 }
 #controlls div {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   font-size: 0;
   max-width: 300px;
   display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
