@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  color: white;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+#counter {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: blueviolet;
+}
+#end {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+#end button {
+  background-color: red;
+  padding: 20px 50px 20px 50px;
+  font-family: inherit;
+  font-size: inherit;
+}
+#controlls {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+  -webkit-box-align: center;
+  align-items: flex-end;
+  justify-content: center;
+}
+#controlls div {
+  font-size: 0;
+  max-width: 300px;
+  display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+  justify-content: space-between;
+}
+
+.divc2{
+  display: -webkit-box;
+  display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+  flex-direction: column; 
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  height: 180px;
+}
+
+.divc3{
+  display: -webkit-box;
+  display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+#controlls button {
+  width: 50px;
+  font-family: inherit;
+  font-size: 30px;
+  border: 3px solid white;
+  color: white;
+  background-color: transparent;
+  margin: 5px;
+}
+#controlls button:first-of-type {
+  width: 170px;
+}
