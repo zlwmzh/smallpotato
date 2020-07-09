@@ -41,7 +41,6 @@ button {
   justify-content: center;
 }
 #controlls div {
-  margin-bottom: 20px;
   font-size: 0;
   max-width: 300px;
   display:-webkit-box;/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
@@ -54,8 +53,8 @@ button {
   display:flex;/* 新版本语法: Opera 12.1, Firefox 22+ */
   flex-direction: column; 
   -webkit-box-orient: vertical;
--moz-box-orient: vertical;
-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
 }
 #controlls button {
   width: 50px;
